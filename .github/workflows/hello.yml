@@ -9,6 +9,10 @@ jobs:
     steps:
       - name: Echo the message
         run: echo 'hola Abner'
+      - name: Dime la fecha
+        run: date
+      - name: lista
+        run: ls -l
 
 
 
